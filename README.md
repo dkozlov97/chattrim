@@ -2,9 +2,9 @@
 
 ![ChatTrim hero](docs/assets/chattrim-hero.png)
 
-[![Validate](https://github.com/dkozlov/chattrim/actions/workflows/validate.yml/badge.svg)](https://github.com/dkozlov/chattrim/actions/workflows/validate.yml)
+[![Validate](https://github.com/dkozlov97/chattrim/actions/workflows/validate.yml/badge.svg)](https://github.com/dkozlov97/chattrim/actions/workflows/validate.yml)
 [![MIT License](https://img.shields.io/badge/license-MIT-0f172a.svg?color=0f172a&labelColor=06b6d4)](LICENSE)
-[![Release](https://img.shields.io/github/v/release/dkozlov/chattrim?color=06b6d4&label=release)](https://github.com/dkozlov/chattrim/releases)
+[![Release](https://img.shields.io/github/v/release/dkozlov97/chattrim?color=06b6d4&label=release)](https://github.com/dkozlov97/chattrim/releases)
 
 ChatTrim is a tiny Chrome extension that makes long ChatGPT conversations easier to handle by hiding older messages and keeping the latest turns front and center.
 
@@ -39,7 +39,7 @@ It does one job, stays local, and keeps the install story simple.
 
 ### Option 2: Release ZIP
 
-1. Download the latest release from the [Releases page](https://github.com/dkozlov/chattrim/releases).
+1. Download the latest release from the [Releases page](https://github.com/dkozlov97/chattrim/releases).
 2. Extract `chattrim-v1.0.0.zip`.
 3. Open `chrome://extensions`.
 4. Enable `Developer mode`.
