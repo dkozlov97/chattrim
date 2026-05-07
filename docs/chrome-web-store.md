@@ -14,40 +14,41 @@ English
 
 ## Short description
 
-Keep long ChatGPT chats lighter by hiding older messages and keeping the latest turns easy to scan.
+Prune older turns from long ChatGPT chats so the latest context stays easier to scan.
 
 ## Detailed description
 
-ChatTrim is a lightweight Chrome extension for people who live in long ChatGPT threads.
+ChatTrim is a lightweight Chrome extension for people who spend a long time inside the same ChatGPT thread.
 
-Instead of making you scroll through a wall of older messages every time, ChatTrim keeps the latest conversation turns visible and hides older ones until you need them. When you want the full thread, click `Show hidden messages`.
+Instead of leaving the entire conversation mounted in the live page, ChatTrim can prune older turns in `Aggressive` mode and keep the newest part of the chat front and center. If you want the untouched page back, switch to `Safe` mode or use `Restore full chat`.
 
-Why users like it:
+Why people use it:
 
 - Cleaner view in long conversations
-- Faster scanning of the most recent context
+- Less UI noise around the newest prompts and replies
 - Local-only behavior with no analytics or remote calls
-- Tiny codebase with a single purpose
+- Small codebase with a single job
 
 What it does not do:
 
 - It does not collect chat data
 - It does not send chat content to any server
 - It does not modify your ChatGPT account
-- It does not remove old messages from the DOM
+- It does not promise a fixed CPU or memory improvement on every device
+- It does store local mode and debug preferences in browser storage
 
 ChatTrim runs only on `chatgpt.com` and `chat.openai.com`.
 
 ## Single purpose description
 
-ChatTrim improves readability in long ChatGPT conversations by hiding older message turns and keeping the latest turns visible.
+ChatTrim keeps long ChatGPT chats easier to scan by pruning older turns from the live page and keeping the newest turns in focus.
 
 ## Privacy disclosure
 
 - Data collection: none
 - Remote code: none
 - Authentication: none
-- Local storage: none
+- Local storage: mode and debug preferences only
 - Background network requests: none
 
 ## Permissions justification
@@ -55,7 +56,7 @@ ChatTrim improves readability in long ChatGPT conversations by hiding older mess
 - `https://chatgpt.com/*`
 - `https://chat.openai.com/*`
 
-These matches are required so the content script can read the current chat page structure and hide older conversation turns on supported ChatGPT pages.
+These matches are required so the content script can detect supported ChatGPT chat pages and manage older conversation turns locally in the page.
 
 ## Suggested screenshots
 
@@ -64,6 +65,6 @@ These matches are required so the content script can read the current chat page 
 
 ## Store submission notes
 
-- Position as a focused utility, not a performance benchmark claim.
-- Keep the “unofficial / not affiliated with OpenAI” disclaimer in the listing.
-- If the visible-turn count becomes configurable later, update the listing copy to reflect that.
+- Position it as long-chat UI relief, not as a benchmarked performance claim
+- Keep the “unofficial / not affiliated with OpenAI” disclaimer in the listing
+- If the visible-turn count becomes configurable later, update the listing copy to match

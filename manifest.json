@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "ChatTrim",
   "version": "1.0.0",
-  "description": "Keeps long ChatGPT chats lighter by hiding older messages and showing the latest turns first.",
+  "description": "Prunes older turns from long ChatGPT chats so the latest context stays easier to scan.",
   "homepage_url": "https://github.com/dkozlov97/chattrim",
   "icons": {
     "16": "icons/icon16.png",
